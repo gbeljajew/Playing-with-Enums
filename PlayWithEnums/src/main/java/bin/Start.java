@@ -7,7 +7,7 @@ package bin;
 
 import bin.items.ActionEnum;
 import bin.items.Item;
-import bin.items.ItemTypesEnum;
+import bin.items.ItemFabricEnum;
 import bin.utils.*;
 import com.google.gson.Gson;
 import java.io.File;
@@ -51,7 +51,7 @@ public class Start
             
             for(Prototyp p: ph.list)
             {
-                ItemTypesEnum ite = ItemTypesEnum.valueOf(p.typ1);
+                ItemFabricEnum ite = ItemFabricEnum.valueOf(p.typ1);
                 Item i = ite.instance(p);
                 items.add(i);
             }
