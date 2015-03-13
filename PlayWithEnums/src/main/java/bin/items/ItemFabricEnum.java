@@ -11,7 +11,8 @@ import bin.items.weapons.WeaponFabricEnum;
 import bin.utils.Prototyp;
 
 /**
- *
+ *this Enum contains all top level selections
+ * each of its values makes then medium level selection in corresponding package and delegates creating instance to it
  * @author gbeljajew
  */
 public enum ItemFabricEnum 
