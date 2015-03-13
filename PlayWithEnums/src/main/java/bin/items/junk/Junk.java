@@ -16,7 +16,7 @@ import java.util.List;
  * 
  * it works like an adapter class: it implements all methods im minimal form 
  * and overrides one of methods needet for Item interface
- * @author gbeljajew
+ * @author gbeljajew 
  */
 public abstract class Junk implements Item
 {
