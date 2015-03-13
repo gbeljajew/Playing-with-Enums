@@ -19,7 +19,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *
+ *this one is just a starter class.
+ * it does upper level selecting (it should be in another class)
+ * and tests what we got and what those items can do
  * @author gbeljajew
  */
 public class Start 
