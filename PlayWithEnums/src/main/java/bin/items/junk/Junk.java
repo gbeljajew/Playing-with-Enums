@@ -11,7 +11,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
+ *this is medium level abstract class
+ * all low level classes have to extend this class
+ * 
+ * it works like an adapter class: it implements all methods im minimal form 
+ * and overrides one of methods needet for Item interface
  * @author gbeljajew
  */
 public abstract class Junk implements Item
