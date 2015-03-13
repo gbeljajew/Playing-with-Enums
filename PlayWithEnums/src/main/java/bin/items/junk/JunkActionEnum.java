@@ -9,7 +9,7 @@ import bin.items.ActionEnum;
 import bin.items.Item;
 
 /**
- *
+ * this interface contains all actions, that you can perform with junk
  * @author gbeljajew
  */
 public enum JunkActionEnum implements ActionEnum
