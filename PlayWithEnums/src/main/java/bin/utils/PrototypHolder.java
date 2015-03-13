@@ -8,7 +8,7 @@ package bin.utils;
 import java.util.ArrayList;
 
 /**
- *
+ *those two classes are for gson so he can transform JSON String into object without to much code
  * @author gbeljajew
  */
 public class PrototypHolder 
