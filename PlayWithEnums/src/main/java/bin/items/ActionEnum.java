@@ -6,7 +6,7 @@
 package bin.items;
 
 /**
- *
+ *this interface is implementd by all ActionEnums in every package
  * @author gbeljajew
  */
 public interface ActionEnum {
